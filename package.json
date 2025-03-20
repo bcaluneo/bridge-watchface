@@ -1,0 +1,62 @@
+{
+  "name": "bridge-watchface",
+  "author": "bcaluneo",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Bridge",
+    "uuid": "33522fd8-7b95-49b8-8f08-e37ac6eef378",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "capabilities": [
+      "health"
+    ],
+    "targetPlatforms": [
+      "basalt"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "raw",
+          "name": "CALENDAR",
+          "file": "pdc/calendar.pdc"
+        },
+        {
+          "type": "raw",
+          "name": "STEPS",
+          "file": "pdc/steps.pdc"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_TRACK",
+          "file": "img/track.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_REVERSE_MOON",
+          "file": "img/reverse_moon.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_FORWARD_MOON",
+          "file": "img/forward_moon.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_SUN",
+          "file": "img/sun.png"
+        }
+      ]
+    }
+  }
+}
